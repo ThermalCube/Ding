@@ -1,0 +1,11 @@
+{
+  "text.autoconfig.ding.title": "Ding Options",
+  "text.autoconfig.ding.option.name": "Name",
+  "text.autoconfig.ding.option.name.@Tooltip[0]": "Minecraft name of sound file to play when Minecraft is loaded",
+  "text.autoconfig.ding.option.name.@Tooltip[1]": "EG: \"ui.button.click\" or \"entity.experience_orb.pickup\"",
+  "text.autoconfig.ding.option.name.@Tooltip[2]": "",
+  "text.autoconfig.ding.option.name.@Tooltip[3]": "This can also be a mod sound if the mod is installed.",
+  "text.autoconfig.ding.option.name.@Tooltip[4]": "EG: \"modname:modsound.boing\"",
+  "text.autoconfig.ding.option.pitch": "Pitch",
+  "text.autoconfig.ding.option.pitch.@Tooltip": "Pitch of the sound to play when Minecraft is loaded"
+}
