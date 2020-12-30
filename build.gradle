@@ -26,9 +26,15 @@ dependencies {
 	modApi("me.shedaniel.cloth:config-2:${project.clothconfig_version}") {
 		exclude(group: "net.fabricmc.fabric-api")
 	}
+	include("me.shedaniel.cloth:config-2:${project.clothconfig_version}") {
+		exclude(group: "net.fabricmc.fabric-api")
+	}
 
 	// AutoConfig1u
 	modApi("me.sargunvohra.mcmods:autoconfig1u:${project.autoconfig1u_version}") {
+		exclude(group: "net.fabricmc.fabric-api")
+	}
+	include("me.sargunvohra.mcmods:autoconfig1u:${project.autoconfig1u_version}") {
 		exclude(group: "net.fabricmc.fabric-api")
 	}
 
